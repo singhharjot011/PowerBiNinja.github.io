@@ -1,37 +1,15 @@
-Strongly Typed by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+This Portfolio Website Showcase two of my Projects:
 
+First, Purely Power Bi Based that provies you User Freindly Interface to do in-depth analysis of Canadian Immigration from Year 2015-Present.The Report is directly linked to IRCC website to obtain monthly data about new Permanent Residents based on their Age, Country of Origin, Current Residence (City and Province), NOC Category of Visa Applicant
 
-This is Strongly Typed, a new site template with a minimal, semi-retro
-look (inspired by old instruction manuals) and, as you might guess from its
-name, a strong emphasis on type. It's fully responsive, built on HTML5/CSS3,
-and includes styling for all basic page elements. Demo images* are courtesy of
-regularjane, an incredibly talented photographer friend of mine. Be sure to
-check out more of her work over at deviantART:
+Link to the source Data: https://open.canada.ca/data/en/dataset/f7e5498e-0ad8-4417-85c9-9b8aff9b9eda
 
-http://regularjane.deviantart.com/
+Second, SQL Project on IPL Cricket League (2008-2016) and Using Direct Query PowerBi Report has been built
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Jane's work without her explicit permission!)
+This SQL Project combines various tables from dataset using SQL commands and functions to highlight High and Lows of Cricketers' Performance, teams statistics, and various other interesting statistics.
 
-As usual, feedback, bug reports, and comments are not only welcome, but strongly
-encouraged :)
+The Dataset has been downloaded from Data.World website. This data has statistics about each and every ball, match, result, players, umpire and every other detail about IPL matches from 2008-2016
 
-AJ
-aj@lkn.io | @ajlkn
+Link to the source data: https://data.world/raghu543/ipl-data-till-2016-set-of-csv-files\
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Credits:
-
-	Demo Images:
-		regularjane (regularjane.deviantart.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+For any questions, reach me at singhharjot011@gmail.com
