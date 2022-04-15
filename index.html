@@ -21,7 +21,8 @@
 						<!-- Logo -->
 							<h1 id="logo"><a href="index.html">Harjot Singh <br><br> Data Analyst <br><br>PortFolio</a></h1>
 							<p>This Portfolio showcase my SQL and Power Bi Projects</p>
-							<img src="images/Linkedin.png" width="18" height="18" alt="" /><a href="https://www.linkedin.com/in/singhharjot011/">@SinghHarjot011</a>.</p>
+							<div class="col-6 col-12-small">
+								<ul class="icons"><img src="images/Linkedin.png" width="18" height="18" alt="" /><a href="https://www.linkedin.com/in/singhharjot011/">@SinghHarjot011</a>.</p></div>
 
 						<!-- Nav -->
 							<nav id="nav">
@@ -30,23 +31,12 @@
 									<li>
 										<a href="#" class="icon fa-chart-bar"><span>Dropdown</span></a>
 										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
+											<li><a href="#ThisReport">Canadian Immigration Power Bi Report</a></li>
+											<li><a href="#ThisReport1">IPL PowerBi Report</a></li>
+											
+										
 										</ul>
-									</li>
-									<li><a class="icon solid fa-cog" href="left-sidebar.html"><span>Left Sidebar</span></a></li>
-									<li><a class="icon solid fa-retweet" href="right-sidebar.html"><span>Right Sidebar</span></a></li>
-									<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>No Sidebar</span></a></li>
+								
 								</ul>
 							</nav>
 
@@ -111,10 +101,117 @@
 				</section>
 				<section>
 					<h1 id="ThisReport">
-				<div  style="text-align: center;"><iframe title="Canadian Immigration Database Reports" width="1000" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiY2E5MzBjMjAtMDEwMC00MjNiLWE5ZTgtNGQwOTY2ZTJlZGY1IiwidCI6IjkxZWQ4Yjc0LTg2Y2UtNGRhYS04YjRjLTQwOTRjNzdlMjIzZiJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe></div>
+				<div  style="text-align: center;"><iframe title="Canadian Immigration Database Reports - Overview" width="1000" height="800" text-align:centre; src="https://app.powerbi.com/view?r=eyJrIjoiY2E5MzBjMjAtMDEwMC00MjNiLWE5ZTgtNGQwOTY2ZTJlZGY1IiwidCI6IjkxZWQ4Yjc0LTg2Y2UtNGRhYS04YjRjLTQwOTRjNzdlMjIzZiJ9&embedImagePlaceholder=true" frameborder="2" allowFullScreen="true" ></iframe></div>
 				</section>
-			
-				<br><br><br><br><br><br><br><br><br><br>
+
+<!-- Banner -->
+<section id="banner">
+	<div class="container">
+		<p>“Data is a precious thing and will last longer than the systems themselves.” – Tim Berners-Lee, inventor of the World Wide Web. <br />
+		</p>
+	</div>
+</section>
+				<!-- Features -->
+				<section id="features">
+					<div class="container">
+						<header>
+							<h2>SQL Project on <strong>IPL Cricket League</strong></h2>
+						</header>
+						<div class="row aln-center">
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Feature -->
+									<section>
+										<a href="#ThisReport1" class="image featured"><img src="images/IPL.JPG" alt="" /></a>
+										<header>
+											<h3>Objective</h3>
+										</header>
+										<p>This SQL Project combines various tables from dataset using SQL commands and functions to highlight High and Lows of Cricketers' Performance, teams statistics, and various other interesting statistics <br>
+											<br> 
+										</p>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Feature -->
+									<section>
+										<a href="#ThisReport1" class="image featured"><img src="images/IPL2.JPG"  alt="" /></a>
+										<header>
+											<h3>Dataset Used</h3>
+										</header>
+										<p>The Dataset has been downloaded from Data.World website. This data has statistics about each and every ball, match, result, players, umpire and every other detail about IPL matches from 2008-2016
+											<br> <a href="https://data.world/raghu543/ipl-data-till-2016-set-of-csv-files">Click here to access SourceData</a></p>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Feature -->
+								<section>
+										<a href="#ThisReport1" class="image featured"><img src="images/IPL3.JPG" alt="" /></a>
+										<header>
+											<h3>Tools Used</h3>
+										</header>
+										<p> This project is combination of SQL and PowerBI. 
+											<br> <strong>Microsoft PowerBI </strong>report is using direct query to extract data from <strong>Microsoft SQL Server Management Studio</strong>
+											</p>
+									</section>
+
+							</div>
+						
+						</div>
+					</div>
+				</section>
+
+				<!-- Content -->
+				<div id="content" class="col-8 col-12-medium">
+
+					<!-- Post -->
+						<article class="box post">
+							<header>
+								<div style="text-align: center;"><h2>Below is the screenshot from MS SQL SERVER MANAGEMENT that shows the top 3 rows of the tables used in project<br />
+								</h2> </div>
+							</header>
+							<div style="text-align: center;"><img  style="text-align: left;" src="images/TABLESPREVIEW.JPG" alt="TablesPreview" class="center"/></a></div>
+							<br><br><h3>Following is a list of the Questions that were answered using the database so far</h3>
+							<p><ul><li> Total Score of Winner Teams Sorted Highest To Lowest, along with venue, date and opposing team (Highest Scorer Teams)
+								<li>  Total Score of Looser Teams Sorted Lowest to Highest, along with venue, date and opposing team (Lowest Scorer Teams)
+									<li> Total Number of Matches Played by each player over Years
+										<li> Total Number of Matches Played by Each Team over Years
+											<li> Total Number of Matches based on Stadium (Venue)
+												<li> Fielder Caught highest to lowest number of catches (Best Fielder)
+													<li> Top Six Hitter Batsman 
+														<li> Highest scorer Batsman to lowest scorer Batsman</li></ul></p>
+														<div class="col-4 col-6-medium col-12-small">
+															<ul class="actions">
+																<div style="text-align:center"><li><a href="https://github.com/singhharjot011/IPL_SQL_Portfolio_Project" class="button icon solid fa-file">Click here to access GitHub Repository of My SQL project</a></li></div>>
+							</ul>
+							<div style="text-align:center"><a href="https://data.world/raghu543/ipl-data-till-2016-set-of-csv-files" class="button icon solid fa-file">Click here to access SourceData</a></div>>
+							<div class="col-12">
+								<ul class="actions">
+									<div style="text-align:center"><a href="#ThisReport1" class="button icon solid fa-file">Go to IPL Power BI Report</a></li></div>
+								</ul>
+							</div></div>
+							
+							
+						</article>
+
+				<section>
+					<h1 id="ThisReport1">
+				<div  style="text-align: center;"><iframe title="IPL - Page 1" width="1000" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiYzExODk1NWYtM2JkZC00MGE5LWJjY2YtZDkwODAwZjA5OTgyIiwidCI6IjkxZWQ4Yjc0LTg2Y2UtNGRhYS04YjRjLTQwOTRjNzdlMjIzZiJ9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe></div>
+				</section>
+			<!-- Banner -->
+				<section id="banner">
+					<div class="container">
+						<p>“Without <strong>big data analytics</strong>, companies are blind and deaf, wandering out onto the web like deer on a freeway.” – Geoffrey Moore, author and consultant.</p>
+					</div>
+				</section>
+				
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
 						<header>
 							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
 						</header>
@@ -141,33 +238,27 @@
 							</div>
 							<div class="col-6 col-12-medium">
 								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
+									<p></p>
 									<div class="row">
 										<div class="col-6 col-12-small">
 											<ul class="icons">
 												<li class="icon solid fa-home">
-												
-													Brampton, ON L6X-xxx<br />
+													Brampton<br />
+													Ontario<br />
 													Canada
 												</li>
 												<li class="icon solid fa-phone">
-													(647) 720-3504
+													(647) 720-xxxx
 												</li>
 												<li class="icon solid fa-envelope">
-													<a href="#">HarjotSingh011@yahoo.com</a>
+													<a href="mailto:singhharjot011@gmail.com">singhharjot011@gmail.com</a>
 												</li>
+													<li class="icon brands fa-linkedin">
+													<a href="#">facebook.com/untitled</a></li>
 											</ul>
 										</div>
 										<div class="col-6 col-12-small">
-											<ul class="icons">
-												
-												
-												<li class="icon brands fa-linkedin">
-													<a href="https://www.linkedin.com/in/singhharjot011/">@singhharjot011</a>
-												</li>
-												
+									
 											</ul>
 										</div>
 									</div>
